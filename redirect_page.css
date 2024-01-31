@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-image: url(./broooooo.gif);
+}
+
+.icon {
+    font-size: 100px;
+    color: rgb(0, 255, 85);
+}
+
+.Redirct_Pic {
+    display: inline-block;
+    margin: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Redirct_Pic:hover {
+    transform: scale(1.1);
+}
+
+.Redirct_Pic a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.Redirct_Pic a:hover {
+    color: blue;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Abo_elafkar;
+    src: url(./Honk-Regular-VariableFont_MORF\,SHLN.ttf);
+  }
+  body{
+    text-align: center;
+    font-family:  "Abo_elafkar", sans-serif;
+    background-image: url(./abothrwat.gif);
+  }

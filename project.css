@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Mohamed_Ayman;
+  src: url(./Lobster-Regular.ttf);
+}
+@font-face {
+  font-family: Mohamed_Ayman_wa7edbas;
+  src: url(./Nabla-Regular.ttf);
+}
+@font-face {
+  font-family: Mohamed_Ayman_wa7edbas_xd;
+  src: url(./Pacifico-Regular.ttf);
+}
+@font-face {
+  font-family: AboAyman_Wa7edBas;
+  src: url(./PermanentMarker-Regular.ttf);
+}
+body {
+  background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  transition-duration: 1.5s;
+}
+
+body.show-content {
+  opacity: 1;
+}
+
+.head1 {
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.head1 img {
+  border-radius: 50%;
+  width: 180px;
+  height: 170px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.head1 img:hover {
+  transform: scale(1.1);
+}
+
+.b1 {
+  display: inline-block;
+}
+
+.nav1 {
+  margin-left: 20px;
+}
+
+.skills {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.Social_Media {
+  width: 40px;
+  font-size: 30px;
+  color: rgb(68, 57, 221);
+  transition: color 0.3s ease-in-out;
+}
+
+.Social_Media:hover {
+  color: rgb(255, 0, 0);
+}
+
+#nav0 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#article0 {
+  width: 38%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer0 {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Add hover effect to progress bars */
+progress:hover {
+  filter: brightness(120%);
+}
+
+/* Add hover effect to links in the footer */
+#footer0 a:hover {
+  color: rgb(255, 0, 0);
+  transition: color 0.3s ease-in-out;
+}
+h1{
+  font-family:  "Mohamed_Ayman", sans-serif;
+}
+h2{
+  font-family:  "Mohamed_Ayman_wa7edbas", sans-serif;
+  font-size: 43px;
+}
+p{
+  font-family:  "Mohamed_Ayman_wa7edbas_xd", sans-serif;
+  font-size: 15px;
+}
+h4{
+  font-family:  "Mohamed_Ayman", sans-serif;
+}
+li{
+  font-family:  "AboAyman_Wa7edBas", sans-serif;
+}
